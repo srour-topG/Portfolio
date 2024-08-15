@@ -3,7 +3,7 @@ import { Metadata } from "next";
 export const DefaultMetadata: Metadata = {
   metadataBase: new URL("https://kmosha.me/"),
   title: "KmoShaX",
-  description: "My name is Kareem Hossam - Sineor Full-Stack Developer ",
+  description: "My name is Kareem Hossam - Software Developer ",
   applicationName: "Kmosha",
   keywords: [
     "kmosha",
