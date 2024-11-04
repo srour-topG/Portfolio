@@ -54,4 +54,27 @@ export const projects: ProjectProps[] = [
     image: "/projects/ridz.png",
     available: true,
   },
+ {
+    id: 2,
+    name: "Originaa website",
+    description: "Minercraft addons list for youtuber named originaa.",
+    technologies: [SiTypescript, SiReact, SiNextdotjs, SiTailwindcss, SiNextui],
+    techNames: [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "NextUI",
+    ],
+    techLinks: [
+      "https://www.typescriptlang.org/",
+      "https://reactjs.org/",
+      "https://nextjs.org/",
+      "https://tailwindcss.com/",
+      "https://nextui.org/",
+    ],
+    demo: "https://originaa.net/",
+    image: "/projects/originaa.jpeg",
+    available: true,
+  },
 ];
