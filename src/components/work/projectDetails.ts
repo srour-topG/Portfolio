@@ -78,7 +78,7 @@ export const projects: ProjectProps[] = [
     available: true,
   },
  {
-    id: 2,
+    id: 3,
     name: "Wonder Tech",
     description: "Wonder Tech E-Shop Discord Server.",
     technologies: [SiTypescript, SiReact, SiNextdotjs, SiTailwindcss, SiNextui],
@@ -99,7 +99,7 @@ export const projects: ProjectProps[] = [
     available: true,
   },
  {
-    id: 2,
+    id: 4,
     name: "Yousef Portfolio",
     description: "Video editor, Yousef Elgamasy portfolio.",
     technologies: [SiTypescript, SiReact, SiNextdotjs, SiTailwindcss, SiNextui],
