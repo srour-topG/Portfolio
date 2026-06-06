@@ -96,7 +96,7 @@ const PreLoader: React.FC = () => {
         }}
       >
         {/* <p className="text-red-700">Hwllo</p> */}
-        <span>KmoShaX</span>
+        <span>Srour</span>
         <span> / </span>
 
         <span className="flex gap-3 justify-center items-center">
