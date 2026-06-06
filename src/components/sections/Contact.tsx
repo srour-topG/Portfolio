@@ -38,7 +38,7 @@ const Contact = () => {
               }
             />
             <Link
-              href="mailto:kmoshax@gmail.com"
+              href="mailto:srour.topg@gmail.com"
               target="_blank"
               aria-label="Send me an email"
               className="mt-1 w-[147px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[147px] md:mt-3 md:w-[170px] lg:mt-4"
@@ -49,7 +49,7 @@ const Contact = () => {
 
           <div className="flex gap-10 text-[16px] font-bold text-[#e4ded7]  sm:gap-14 sm:text-[24px] md:gap-10 md:text-[16px] lg:gap-20 lg:text-[28px]">
             <Link
-              href="https://github.com/kmoshax"
+              href="https://github.com/srour-topG"
               target="_blank"
               aria-label="View GitHub Profile"
             >
@@ -63,12 +63,12 @@ const Contact = () => {
               />
             </Link>
             <Link
-              href="https://discordapp.com/users/728217567495192598"
+              href="https://wa.me/01033438365"
               target="_blank"
-              aria-label="View discord Profile"
+              aria-label="View WhatsApp Profile"
             >
               <AnimatedTitle
-                text={"DISCORD "}
+                text={"WhatsApp"}
                 className={
                   "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
                 }

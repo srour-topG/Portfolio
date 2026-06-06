@@ -19,7 +19,7 @@ const About = () => {
 
         <div className="mx-auto flex w-[100%] flex-col lg:max-w-[1200px] lg:flex-row lg:gap-20">
           <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
-            <AnimatedBody text="Kareem Hossam, also known as KmoSha, emerging young talent in the tech world, known for my skills in backend development, JavaScript, and Discord bot creation. At just 16 years old, i'm already making strides in the developer community, with a growing portfolio of projects on platforms like GitHub and npm." />
+            <AnimatedBody text="Mostafa Srour, also known as Srour, emerging young talent in the tech world, known for my skills in backend development, JavaScript, and Discord bot creation. At just 16 years old, i'm already making strides in the developer community, with a growing portfolio of projects on platforms like GitHub and npm." />
 
             <AnimatedBody
               delay={0.1}
@@ -28,7 +28,7 @@ const About = () => {
 
             <AnimatedBody
               delay={0.2}
-              text="As my continues with a passion for learning and a drive to create, KMOSHA definitely a name to watch in the tech community."
+              text="As my continues with a passion for learning and a drive to create, Srour definitely a name to watch in the tech community."
             />
           </div>
         </div>

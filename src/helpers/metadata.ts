@@ -1,12 +1,12 @@
 import { Metadata } from "next";
 
 export const DefaultMetadata: Metadata = {
-  metadataBase: new URL("https://kmosha.me/"),
-  title: "KmoShaX",
-  description: "My name is Kareem Hossam - Software Developer ",
-  applicationName: "Kmosha",
+  metadataBase: new URL("https://srour.topg.me/"),
+  title: "Srour",
+  description: "My name is Mostafa Srour - Software Developer ",
+  applicationName: "Srour",
   keywords: [
-    "kmosha",
+    "Srour",
     "React",
     "developer",
     "frontend",
@@ -28,15 +28,15 @@ export const DefaultMetadata: Metadata = {
     "frontend engineer portfolio",
   ],
   openGraph: {
-    title: "Kmosha's Portfolio",
-    description: "My name is Kareem Hossam - Sineor Full-Stack Developer",
+    title: "Srour's Portfolio",
+    description: "My name is Mostafa Srour - Senior Full-Stack Developer",
     url: "https://www.eldoraui.site/",
     images: [
       {
         url: "./public/metadata.jpg",
         width: 1200,
         height: 630,
-        alt: "Portfolio - KmoSha",
+        alt: "Portfolio - Srour",
       },
     ],
     locale: "en-US",

@@ -19,7 +19,7 @@ export default function AnimatedTitle({
   const ctrls = useAnimation();
 
   const { ref, inView } = useInView({
-    threshold: 0.4,
+    threshold: 0.5,
     triggerOnce: true,
   });
 

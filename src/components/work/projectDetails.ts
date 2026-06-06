@@ -6,6 +6,8 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiWebgl,
+  SiHtml5,
+  SiCss3,
 } from "react-icons/si";
 
 export const projects: ProjectProps[] = [
@@ -15,12 +17,7 @@ export const projects: ProjectProps[] = [
     description:
       "Online learning platform based on exams and questions learning",
     technologies: [SiTypescript, SiReact, SiNextdotjs, SiTailwindcss],
-    techNames: [
-      "TypeScript",
-      "React",
-      "Next.js",
-      "Tailwind CSS",
-    ],
+    techNames: ["TypeScript", "React", "Next.js", "Tailwind CSS"],
     techLinks: [
       "https://www.typescriptlang.org/",
       "https://reactjs.org/",
@@ -31,60 +28,12 @@ export const projects: ProjectProps[] = [
     image: "/projects/idraak.jpg",
     available: true,
   },
-   {
-    id: 4,
-    name: "Yousef Portfolio",
-    description: "Video editor, Yousef Elgamasy portfolio.",
-    technologies: [SiTypescript, SiReact, SiNextdotjs, SiTailwindcss],
-    techNames: [
-      "TypeScript",
-      "React",
-      "Next.js",
-      "Tailwind CSS",
-    ],
-    techLinks: [
-      "https://www.typescriptlang.org/",
-      "https://reactjs.org/",
-      "https://nextjs.org/",
-      "https://tailwindcss.com/",
-    ],
-    demo: "https://yousef-visuals.art/",
-    image: "/projects/yousef.png",
-    available: true,
-  }, 
-  {
-    id: 3,
-    name: "Wonder Tech",
-    description: "Wonder Tech E-Shop Discord Server.",
-    technologies: [SiTypescript, SiReact, SiNextdotjs, SiTailwindcss],
-    techNames: [
-      "TypeScript",
-      "React",
-      "Next.js",
-      "Tailwind CSS",
-    ],
-    techLinks: [
-      "https://www.typescriptlang.org/",
-      "https://reactjs.org/",
-      "https://nextjs.org/",
-      "https://tailwindcss.com/",
-    ],
-    demo: "https://wondr.it.com/",
-    image: "/projects/wondr.png",
-    available: true,
-  },
   {
     id: 1,
     name: "Ridz Studio",
     description: "Graphics Design Studio Based on website..",
     technologies: [SiTypescript, SiReact, SiNextdotjs, SiTailwindcss, SiNextui],
-    techNames: [
-      "TypeScript",
-      "React",
-      "Next.js",
-      "Tailwind CSS",
-      "NextUI",
-    ],
+    techNames: ["TypeScript", "React", "Next.js", "Tailwind CSS", "NextUI"],
     techLinks: [
       "https://www.typescriptlang.org/",
       "https://reactjs.org/",
@@ -96,18 +45,44 @@ export const projects: ProjectProps[] = [
     image: "/projects/ridz.png",
     available: true,
   },
- {
+  {
+    id: 4,
+    name: "Yousef Portfolio",
+    description: "Video editor, Yousef Elgamasy portfolio.",
+    technologies: [SiTypescript, SiReact, SiNextdotjs, SiTailwindcss],
+    techNames: ["TypeScript", "React", "Next.js", "Tailwind CSS"],
+    techLinks: [
+      "https://www.typescriptlang.org/",
+      "https://reactjs.org/",
+      "https://nextjs.org/",
+      "https://tailwindcss.com/",
+    ],
+    demo: "https://yousef-visuals.art/",
+    image: "/projects/yousef.png",
+    available: true,
+  },
+  {
+    id: 3,
+    name: "Killua Portfolio",
+    description: "Killua Zoldyck fan portfolio based on WebGL and Three.js.",
+    technologies: [SiHtml5, SiCss3, SiWebgl],
+    techNames: ["HTML5", "CSS3", "WebGL"],
+    techLinks: [
+      "https://www.learn-html.org/",
+      "https://learn-css.org/",
+      "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API",
+    ],
+    demo: "https://srour-topg.github.io/Killua-portfolio/project%202/",
+    image: "/projects/kilua.jpg",
+    available: true,
+  },
+
+  {
     id: 2,
     name: "Originaa website",
     description: "Minercraft addons list for youtuber named originaa.",
     technologies: [SiTypescript, SiReact, SiNextdotjs, SiTailwindcss, SiNextui],
-    techNames: [
-      "TypeScript",
-      "React",
-      "Next.js",
-      "Tailwind CSS",
-      "NextUI",
-    ],
+    techNames: ["TypeScript", "React", "Next.js", "Tailwind CSS", "NextUI"],
     techLinks: [
       "https://www.typescriptlang.org/",
       "https://reactjs.org/",
@@ -119,6 +94,4 @@ export const projects: ProjectProps[] = [
     image: "/projects/originaa.jpeg",
     available: true,
   },
-
-
 ];
